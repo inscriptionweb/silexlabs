@@ -45,8 +45,16 @@
 \Huge{SilexLabs}
 \end{center}
 \end{frame}
-%-----------------------------------------------
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Silexlabs}
 
+\begin{center}
+\includegraphics[scale=0.6] {./images/silexlabs.jpg}
+\end{center}
+\end{frame}
+
+%-----------------------------------------------
 \begin{frame}
 \begin{center}
 \Huge{Genma}
@@ -119,39 +127,108 @@ Aller plus loin? Tor et le TorBrowser
 \Huge{Pourquoi ne dit-on pas crypter ? Un peu de théorie}
 \end{center}
 \end{frame}
+
+
 %------------------------------------------------
 \begin{frame}
-\frametitle{XXXX}
+\frametitle{Le principe du chiffrement}
 
 
-\begin{block}{XXXX}
+\begin{block}{Le chiffrement}
 \justifying{
-\begin{itemize}
-\item 
-\end{itemize}
+Le chiffrement consiste à chiffrer un document/un fichier à l’aide d’une clef de chiffrement. 
+L’opération inverse étant le déchiffrement. 
+}
+\end{block}
+\begin{block}{Le cryptage}
+\justifying{
+Le terme \emph{cryptage} est un anglicisme, tiré de l’anglais encryption. 
+Le décryptage existe : il s’agit de "casser" un document chiffré lorsqu’on n’en a pas la clef.
+}
+\end{block}
+\begin{block}{La cryptographie}
+\justifying{
+La science quant-à elle s’appelle  la "cryptographie".
 }
 \end{block}
 \end{frame}
-%-----------------------------------------------
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le chiffrement symétrique (Cesar)}
+
+
+\begin{block}{Le chiffrement symétrique}
+\justifying{
+Cela consiste à chiffrer un message avec la même clef que celle qui sera utilisé pour le déchiffrement. 
+Exemple : le code de César avec un décalage de lettres. A-C, B-D etc.
+\\
+Nous venons en paix -  Pqwu xgpqpu gp rckz
+\\
+On applique le processus inverse pour avoir le message.
+}
+\end{block}
+
+\begin{block}{Une clef de chiffrement c'est quoi?}
+\justifying{
+
+Une clef s'appelle une clef car elle ouvre/ferme le cadenas qu'est l'algorithme de chiffrement utilisé.
+\begin{itemize}
+\item Ici, l'algorithme est dans la notion de décalage.
+\item La clef est le nombre de lettre décallées (ici deux lettres).
+\end{itemize}
+}
+\end{block}
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Le chiffrement asymétrique 1/2}
+
+\begin{block}{Clef publique - clef privée}
+\justifying{
+
+Le chiffrement asymétrique repose sur le couple clef publique - clef privée.
+\\$\Rightarrow$  Ce qu'il faut comprendre/retenir : 
+\begin{itemize}
+\item Ma clef privée est secrète.
+\item Ma clef publique est distribuée à tous.
+\end{itemize}
+}
+\end{block}
+
+\begin{block}{L'algorithme de chiffrement}
+\justifying{
+L'algorithme de chiffrement est bien plus complexe que le fait de décaler des lettres ; il repose sur des notions mathématiques (nombre premiers...)
+}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Le chiffrement asymétrique 2/2}
+
+\begin{block}{Le chiffrement}
+Avec la clef publique de mon correspondant, je chiffre  un fichier.
+\\$\Rightarrow$ Le fichier ne peut plus être déchiffré que par la personne qui possède la clef privée correspondant à la clef publique que j'ai utilisée (donc mon correspondant).
+\end{block}
+
+\begin{block}{Le déchiffrement}
+Avec sa clef privée,  mon correspondant déchiffre le fichier.
+\\
+$\Rightarrow$ Il peut alors lire le message.
+\end{block}
+
+\begin{block}{Cas concret}
+Le chiffrement de ses mails avec PGP.
+\end{block}
+\end{frame}
 
 %-----------------------------------------------
 \begin{frame}
 \begin{center}
 \Huge{Le chiffrement en pratique}
 \end{center}
-\end{frame}
-%------------------------------------------------
-\begin{frame}
-\frametitle{XXXX}
-
-
-\begin{block}{XXXX}
-\justifying{
-\begin{itemize}
-\item 
-\end{itemize}
-}
-\end{block}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
@@ -163,7 +240,25 @@ Avoir une connexion httpS dès que possibe
 \includegraphics[scale=0.5] {./images/httpseverywhere.jpg}
 \end{center}
 \end{frame}
-%-----------------------------------------------
+%----------------------------------------------
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{ Le coffre-fort numérique avec TrueCrypt/Veracrypt}
+
+\begin{center}
+\includegraphics[scale=0.4] {./images/Truecrypt18.png}
+\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Les enveloppes}
+
+\begin{center}
+\includegraphics[scale=0.4] {./images/gpg.jpg}
+\end{center}
+\end{frame}
 
 %-----------------------------------------------
 \begin{frame}
@@ -239,17 +334,12 @@ Bloque tous les trackers associés au site.
 \end{center}
 \end{frame}
 
-
-
-%-----------------------------------------------
-
 %-----------------------------------------------
 \begin{frame}
 \begin{center}
 \Huge{Aller plus loin? Tor et le TorBrowser}
 \end{center}
 \end{frame}
-
 
 %----------------------------------------------------------------------------------------
 \begin{frame}
@@ -265,6 +355,15 @@ Bloque tous les trackers associés au site.
 \frametitle{Comment fonctionne Tor ?}
 \begin{center}
 \includegraphics[keepaspectratio,width=\textwidth, height=.8\textheight]{images/tor-keys1}
+\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+\begin{frame}
+\frametitle{Tor et les enveloppes}
+
+\begin{center}
+\includegraphics[scale=0.3] {./images/tor.jpg}
 \end{center}
 \end{frame}
 
