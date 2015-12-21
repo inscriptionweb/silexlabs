@@ -1,0 +1,72 @@
+Programme :
+
+Pourquoi ne dit-on pas crypter ? Un peu de théorie
+
+    Le principe du chiffrement
+    Le chiffrement symétrique (Cesar)
+    Le chiffrement asymétrique (les enveloppes)
+
+Le chiffrement en pratique
+
+    Connexion Internet httpS
+    Le coffre-fort numérique avec TrueCrypt/Veracrypt
+
+Comment est suivi à la trace sur Internet
+
+    Les publicités et le tracking par scripts (Le bouton j’aime de Facebook / Lightbeam)
+    Comment les bloquer.
+
+Aller plus loin? Tor et le TorBrowser
+
+    Comment l’installer, comment ça marche…
+
+
+https://bimestriel.framapad.org/p/vie_privee
+
+INTERVENANT :                                 
+
+Genma de mon pseudonyme Internet, je tiens un blog Le Blog de Genma http://genma.free.fr sur lequel j'essaie de publier des articles ayant pour but de vulgariser différents sujets associés au thèmes de la vie privée, de la dégooglisation par Framasoft, sur Firefox OS, Tor et le logiciel libre en général. Je fais partie du collectif "Les Cafés vie privée".
+Mon blog : http://genma.free.fr/
+@genma sur Twitter
+
+PROGRAMME :
+
+1ère heure 1/2 de sensibilisation avec un côté interactif
+
+Pourquoi ne dit-on pas crypter? Un peu de théorie
+- Le principe du chiffrement
+- Le chiffrement symétrique (Cesar)
+- Le chiffrement asymétrique (les enveloppes)
+
+Le chiffrement en pratique
+- Connexion Internet httpS
+- Le coffre-fort numérique avec TrueCrypt/Veracrypt
+
+Comment est suivi à la trace sur Internet
+- Les publicités et le tracking par scripts (Le bouton j'aime de Facebook / Lightbeam)
+- Comment les bloquer.
+
+Aller plus loin? Tor et le TorBrowser
+- Comment l'installer, comment ça marche...
+
+On finit par Débat/discussion qui se poursuivra à l'apéro.
+
+TODO Genma : Faire un support de présentation et le mettre sur Github
+
+
+
+Si vous venez avec ordi on pourra vous aider à installer Tor .... (mini install party)
+
+mise en pratique de Tor avec des enveloppes
+faire circuler le système d'enveloppe
+
+3ème heure échange informel autour d'un verre ou plusieurs ;)
+
+
+
+chiffrage de base
+
+PUBLIC CIBLE :
+Toute personne intéressée par garder sa vie privée privée
+
+
